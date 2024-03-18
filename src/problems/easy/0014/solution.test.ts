@@ -20,7 +20,7 @@ test("0014 --test-2", () => {
 });
 
 test("0014 --test-3", () => {
-  const strs = [];
+  const strs: string[] = [];
   const expected = "";
 
   const result = longestCommonPrefix(strs);

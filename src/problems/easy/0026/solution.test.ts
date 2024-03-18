@@ -20,7 +20,7 @@ test("0026 --test-2", () => {
 });
 
 test("0026 --test-3", () => {
-  const nums = [];
+  const nums: number[] = [];
   const expected = 0;
 
   const result = removeDuplicates(nums);
