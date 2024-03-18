@@ -1,7 +1,7 @@
 import { test } from "bun:test";
 import romanToInt from "./solution";
 
-test("0013 --test-3", () => {
+test("0013 --test-1", () => {
   const str = "III";
   const expected = 3;
 
@@ -19,7 +19,7 @@ test("0013 --test-2", () => {
   Bun.deepEquals(result, expected);
 });
 
-test("0013 --test-1", () => {
+test("0013 --test-3", () => {
   const str = "MCMXCIV";
   const expected = 1994;
 
